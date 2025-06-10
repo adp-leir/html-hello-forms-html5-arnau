@@ -8,7 +8,7 @@
 </head>
 <body class="bg-dark text-white">
     <div class="container py-5">
-        <div class="bg-white p-4 rounded shadow">
+        <div class="bg-white text-dark p-4 rounded shadow">
             <h3 class="mb-4">Payment form example</h3>
 
             <div class="alert alert-danger" role="alert">
@@ -28,7 +28,7 @@
                         </div>
                         <div class="col-md-4">
                             <label for="amount" class="form-label">Amount</label>
-                            <input type="text" class="form-control" id="amount" placeholder="$ Amount" required>
+                            <input type="text" class="form-control" id="amount" placeholder="Amount" required>
                         </div>
                     </div>
                 </fieldset>
@@ -71,11 +71,13 @@
                 <fieldset class="border-0 mb-3">
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <label class="form-label">We accept:</label>
-                            <div class="d-flex gap-2">
-                                <i class="fab fa-cc-visa"></i>
-                                <i class="fab fa-cc-mastercard"></i>
-                                <i class="fab fa-cc-paypal"></i>
+                            <div class="d-flex gap-2 align-items-center">
+                                <label class="form-label mb-0">We accept:</label>
+                                <div class="d-flex gap-2">
+                                    <i class="fab fa-cc-visa fa-2x" style="color: #1a1aff;"></i>
+                                    <i class="fab fa-cc-mastercard fa-2x" style="color: #ff9900;"></i>
+                                    <i class="fab fa-cc-paypal fa-2x" style="color: #003087;"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6">
